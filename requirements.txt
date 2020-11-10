@@ -1,0 +1,3 @@
+gunicorn==20.0.4
+flask==1.1.2
+giphy_client==1.0.0

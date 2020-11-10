@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+    <title>GIF Invasion</title>
+    <link rel= "stylesheet" type= "text/css" href='{{ url_for("static",filename="style.css") }}'>
+</head>
+<body>
+    <h1>GIF Invasion</h1>
+    <h3><center>The coolest GIF search</center></h3>
+    <script src='{{ url_for("static", filename="redirect.js") }}'></script>
+    <form>
+        <label><p>Search</p></p></label>
+        <input type="text" id="query" placeholder="Keyword">
+        <button onclick="search()">GO!</button>
+    </form>
+</body>
